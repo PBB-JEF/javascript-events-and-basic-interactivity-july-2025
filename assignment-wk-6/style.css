@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+#formSuccess {
+  color: green;
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.faq-answer {
+  display: none;
+}
+
+.dropdown ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tab-content {
+  margin-top: 10px;
+}
+
+
